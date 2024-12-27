@@ -1,0 +1,11 @@
+
+
+create table Factory (id serial primary key, name varchar(200), country varchar(200));
+
+create table Car (id serial primary key, model varchar(200), version varchar(200));
+
+insert into Factory (name, country)
+VALUES ('Toyota', 'Japan'), ('Ford', 'USA');
+
+insert into Car (model, version)
+VALUES ('Corolla', 'JJE'), ('Mustang', 'GT');
